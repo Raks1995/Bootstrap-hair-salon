@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>O nama | Frizerski salon Ivan</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: pink; font-size: 30px;">
+        <a class="navbar-brand" href="Naslovnica.html"><img src="logo.png" style="height: 65px; width: 100px;"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="Naslovnica.html">Naslovnica <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="O-nama.html">O nama</a>
+            <a class="nav-item nav-link" href="Usluge.html">Usluge</a>
+            <a class="nav-item nav-link" href="Cjenik.html">Cjenik</a>
+            <a class="nav-item nav-link" href="Kontakt.html">Kontakt</a>
+          </div>
+        </div>
+    </nav>
+
+
+
+    <div class="card bg-dark text-white" style="margin: 0 auto 50px auto;">
+      <img src="tim.jpg" class="card-img" alt="Naš tim">
+      <div class="card-img-overlay">
+        <h1 class="card-title">Naš tim</h1>
+        <h3 class="card-text">Tim se sastoji od stručnjaka u području uređivanja kose.</h3>
+        <p class="card-text">Saznajte više o svakom članu tima!</p>
+      </div>
+    </div>
+
+
+
+    <div class="card mb-3" style="max-width: 90%; margin-left: 100px; background-color: #A9FDAC;">
+      <div class="row no-gutters">
+        <div class="col-md-4">
+          <img src="tim1.jpg" class="card-img" alt="Luka Modrić">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h2 class="card-title" style="color: #1098F7">Luka Modrić</h2>
+            <h4 class="card-text">Voli igrati nogomet.</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-3" style="max-width: 90%; margin-left: 100px; background-color: #FFD468;">
+      <div class="row no-gutters">
+        <div class="col-md-8">
+          <div class="card-body">
+            <h2 class="card-title" style="color: #1098F7">Janica Kostelić</h2>
+            <h4 class="card-text">Voli skijati.</h4>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <img src="tim2.jpg" class="card-img" alt="Janica Kostelić">
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-3" style="max-width: 90%; margin-left: 100px; background-color: #C4BBB8;">
+      <div class="row no-gutters">
+        <div class="col-md-4">
+          <img src="tim3.jpg" class="card-img" alt="Ivan Rakitić">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h2 class="card-title" style="color: #1098F7">Ivan Rakitić</h2>
+            <h4 class="card-text">Misli da je doktor.</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="jumbotron jumbotron-fluid" style="background-color: pink; margin-top: 35px;">
+        <div class="container">
+        <h1 style="text-align: center;">Kontaktiraj nas:</h1>
+        <br>
+        <form>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Email:</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="ime@gmail.com">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Ime i prezime:</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="npr. Pero Perić">
+        </div>
+
+        <div class="form-group">
+            <label for="exampleFormControlSelect2">Koja usluga Vas zanima?</label>
+            <select multiple class="form-control" id="exampleFormControlSelect2">
+              <option>1. Šišanje</option>
+              <option>2. Bojanje kose</option>
+              <option>3. Ugradnja ekstenzija</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Pitajte što Vas zanima:</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-secondary btn-lg btn-block" data-toggle="modal" data-target="#exampleModal">
+              Pošalji
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Poruka poslana!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Odgovor ćete dobiti uskoro.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </form>
+        </div>
+      </div>
+
+</body>
+</html>
